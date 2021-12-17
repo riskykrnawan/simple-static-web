@@ -1,0 +1,348 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+hr {
+    border-color: black;
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 70px;
+    margin: 100px auto;
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.top-container{
+    background-color: rgb(85, 116, 255);
+    height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    color:#3C4563;
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    padding: 0 25px;
+}
+/* ~~~~~~~~~~~~~~ */
+
+
+
+/* Ball */
+.ball1{
+    width: 60%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    opacity: 0.16;
+	border-radius: 0 0 0 100%;
+    top: -170px;
+    right: 0px;
+}
+.ball2{
+    width: 30%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 0% 100% 0% 100%;
+    opacity: 0.16;
+    bottom: 0px;
+    left: -380px;
+}
+/* ~~~~~~ */
+
+
+
+/* Description title */
+.slide1{
+    max-width: 900px;
+    z-index: 4;
+}
+.desc{
+    padding: 250px 60px 100px 60px;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 2.3rem;
+    line-height: 1.5;
+    width: 100%;
+    color: white;
+}
+/* ~~~~~~~~~~~~~~~~~ */
+
+
+
+/* Button Download */
+.button{
+    position: relative;
+    left: 15%;
+}
+.btn1{
+    z-index: 99;
+    box-shadow: 0 20px 30px -6px rgba(171,88,219,0.5);
+    cursor: pointer;
+    color: white;
+    margin: 5% 3% 5% 0;
+}
+/* ~~~~~~~~~~~~~~~ */
+
+
+
+/* Phone Logo */
+.phone{
+    position: absolute;
+    margin-top: 200px;
+    width:41%;
+        
+}
+.math{
+    position: absolute;
+    margin-top: 405px;
+    margin-left: -13rem;
+    width: 15%;
+}
+.selfie{
+    z-index: 4;
+    position: absolute;
+    width: 15%;
+    margin-top: 360px;
+    margin-left: 190px;
+}
+.appreciation{
+    position: absolute;
+    width: 5%;
+    margin-top: 160px;
+    margin-left: 220px;
+}
+/* ~~~~~~~~~~~~~~~ */
+
+
+
+/* Button Down */
+.bi{
+    width: 35px;
+    height: 35px;
+}
+.bawah{
+    z-index:9999;
+    position: absolute;
+    bottom: 0;
+    left: 100vh;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px auto;
+}
+/* ~~~~~~~~~~~~` */
+
+
+/* Middle Container */
+.middle-container{
+    padding-top: 100px;
+    background-color: #fafafa;
+    height: 100vh;
+}
+/* ~~~~~~~~~~~~~~~~ */
+
+
+/* Carousel2 */
+
+#about-us{
+    padding: 7% 15%;
+}
+.feature{
+    width: 400px;
+    left: 8rem;
+}
+.wh-500{
+    height: 600px;
+    max-width: 300px;
+    margin: auto;
+}
+.carousel-caption{
+    position:absolute;
+    top: -1.5rem;
+}
+/* ~~~~~~~~~~ */
+
+.middle-container-2{
+    height: 100vh;
+    margin: auto;
+    background: linear-gradient(rgb(85, 173, 255), rgb(85, 116, 255));
+}
+
+/* Logos */
+.icon{
+    color: #6f00ff;
+    margin-bottom: 2rem;
+}
+
+.icon:hover{
+    color: #390f86;
+}
+
+#feature{
+    padding: 4% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+.middle-container-3{
+    height: 100vh;
+    /* padding: 5% 10%; */
+    
+    /* background-color: rgb(85, 116, 255); */
+}
+
+
+
+.btn-4 {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+  }
+
+
+
+#section-plans{
+    padding-top: 2rem;
+
+}
+
+
+#testimoni{
+    padding: 4% 15%;
+    text-align: center;
+    background: linear-gradient(rgb(43, 80, 245), rgb(85, 116, 255));
+    height: 100vh;
+    color: white;
+}
+.comment{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 2.7rem;
+}
+.nophoto{
+    width: 15%;
+    max-width: 50%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(85, 116, 255);
+    text-align: center;
+}
+.press-logo{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    
+
+/* Phone Logo */
+.phone{
+    bottom: 0px;
+    right: 0;
+    min-width:50%;
+    max-height: 50%;
+        
+}
+.math{
+    bottom: 0px;
+    min-width: 20%;
+    max-height: 20%;
+}
+.selfie{
+    z-index: 4;
+    bottom: 0px;
+    min-width:25%;
+    max-width: 25%;
+    right:4.5rem;
+}
+.appreciation{
+    min-width: 25%;
+    max-height: 25%;
+    bottom: 14.2rem;
+}
+/* ~~~~~~~~~~~~~~~ */
+
+.desc1{
+    font-family: 'Montserrat-Black', sans-serif;
+    width: 100%;
+}
+
+
+/* Button Down */
+.bawah{
+    display: none;
+}
+/* ~~~~~~~~~~~~` */
+
+
+#about-us{
+    margin: 50rem auto 0;
+    width: 100%;
+}
+.feature{
+    display: none;
+}
+.carousel-caption{
+    display: none;
+}
+.nophoto{
+    width: 40%;
+}
+#testimoni{
+    padding-top: 3.4rem;
+    position: relative;
+    bottom: -80rem;
+    right: 0;
+    padding-bottom: 1rem;
+}
+.comment{
+    font-size: 1.4rem;
+}
+.press-logo{
+    width: 40%;
+}
+.press{
+    padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

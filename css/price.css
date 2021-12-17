@@ -1,0 +1,282 @@
+/* ================================================================================================= */
+/* Global */
+
+  /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(rgb(85, 116, 255), rgb(21, 235, 206)); */
+  /* background-color: rgb(0, 4, 250);   */
+  /* background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%; */
+  /* background-repeat: repeat; */
+
+
+/* ================================================================================================= */
+/* Container */
+
+.section-price{
+    max-width: 1140px;  
+    margin: auto;
+    height: 100vh;
+}
+
+/* ================================================================================================= */
+/* Card Container */
+.cards {
+	position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ================================================================================================= */
+/* Card Front */
+
+.card-body-front {
+    height: 35.4rem;
+    transition: 1s;
+}
+
+/* ================================================================================================= */
+/* Card Back */
+
+
+.card-body-back {
+    transition: 1s;
+	-webkit-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+    height: 35.4rem;
+    width: 19.29rem;
+    margin: auto;
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+}
+
+
+
+/* ================================================================================================= */
+/* Heading */
+
+
+
+/* Card Header */
+.card-head{
+        padding: 1rem 2rem 2rem;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.card-title{
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: auto;
+	text-align: center;
+	color: #fff;
+	width: 75%;
+}
+.fa-3x{
+    padding: 2rem 0 0.4rem ;
+}
+
+/* ================================================================================================= */
+/* Card Body */
+
+.card-body{
+    box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    backface-visibility: hidden;
+}
+
+.card-text{
+    padding: 1rem 0 2rem;
+    color: #fff;
+}
+.card-text ul {
+	list-style: none;
+	width: 80%;
+	margin: 0 auto;
+    padding: 0;
+}
+.card-text ul li {
+    text-align: center;
+    font-size: .85rem;
+    padding: .9rem;
+}
+.card-text ul li:not(:last-child) {
+	border-bottom: 1px solid #eee;
+}
+
+/* ================================================================================================= */
+/* Card Price */
+
+.card-price-box {
+    text-align: center;
+    color: #fff;
+    padding: 40% 0% 10%;
+}
+    
+.card-price-only {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+    
+.card-price-value {
+    font-size: 3.55rem;
+    font-weight: 100;
+    /* padding-bottom: 1rem; */
+}
+
+
+.card-group{
+    text-align: center;
+}
+
+/* ================================================================================================= */
+
+
+
+/* ================================================================================================= */
+/* Button */
+.my-btn {
+    border: none;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 12px 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.my-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+    /* transform: translateY(-10px); */
+    transition: .5s;
+    
+}
+
+.my-btn-4 {
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+}
+
+
+
+
+
+
+
+
+
+.card-body-front-1 {
+	background: linear-gradient(-45deg, #64b5f6, #f403d1);
+}
+  
+.card-body-front-2 {
+	background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+  
+.card-body-front-3 {
+    background: linear-gradient(-45deg, #9a4eff, #24ff72);
+}
+
+.card-body-back-1 {
+	background: linear-gradient(-45deg, #64b5f6, #f403d1);
+}
+  
+.card-body-back-2 {
+	background: linear-gradient(-45deg, #ffec61, #f321d7);
+}
+  
+.card-body-back-3 {
+    background: linear-gradient(-45deg, #9a4eff, #24ff72);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+    .col-1-of-3 {
+        width: calc((100% - 2 * 6rem) / 3);
+    }
+    .main{
+        transform: scale(1.15, 1.15);
+    }
+    
+    /* Hover Front and Back */
+    .cards:hover .card-body-front {
+        transition: 1s;
+        transform: rotateY(-180deg);
+    }
+    .cards:hover .card-body-back {
+        transition: 1s;
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);            
+    }
+    .cards:hover .card-body-back-2 {
+        transform: scale(1.15, 1.15);  
+    }
+    .back {
+        display: none;
+    }
+    
+    }
+
+@media (max-width: 991px) {
+    .card-body{
+        margin: 3rem auto;
+        width: 70%;
+    }
+    .card-body-back{
+        height: 35.4rem;
+        margin: auto;
+        transition: 1s;
+        /* background: linear-gradient(-45deg, #64b5f6, #f403d1); */
+        position: absolute;
+        left: 4.4rem;
+        bottom: 0rem;
+    }
+    
+    .mobile-card-body-back-2 {
+        transform: scale(1, 1);  
+    }
+    .mobile-card-body-front {
+        transition: 1s;
+        transform: rotateY(-180deg);
+    }
+    
+    .mobile-card-body-back {
+        transition: 1s;
+        -webkit-transform: rotateY(0);
+                transform: rotateY(0);            
+    }
+    .back{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .my-btn{
+        box-shadow: none;
+    }
+}
